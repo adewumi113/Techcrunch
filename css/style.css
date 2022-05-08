@@ -1,0 +1,116 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: aktiv-grotesk,sans-serif;
+}
+#pain{
+  color: #ff8c00;
+  font-weight: bolder;
+  font-size: 13px;
+}
+input{
+  width: 50%;
+}
+#shel{
+    color: rgb(236, 157, 11);
+    font-weight: bolder;
+  font-size: 15px;
+}
+.pes{
+  color: gray;
+}
+#piq{
+  font-size: 14px;
+  font-weight: bold;
+}
+span{
+  font-size: 12px;
+  font-weight: bold;
+}
+footer>section p{
+  font-size: 12px;
+}
+footer >section+section>p{
+  font-size: inherit;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav, main, aside{
+  float: left;
+  width: 13%;
+  line-height: 190%;
+}
+h1{
+  font-size: 1.8em;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+main{
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 2%;
+  line-height: 90%;
+}
+aside{
+  width: 35%;
+  line-height: 145%;
+}
+
+main img{
+  width: 590px;
+  height: 360px;
+}
+footer section{
+  float: left;
+  width: 33.3333%;
+  margin-top: 25px;
+  margin-left: 21%;
+}
+section > img{
+  height: 192px;
+  width: 355px;
+  padding-left: 13%;
+}
+footer > section+section{
+  margin-left: 15px;
+  font-size: 14px;
+}
+footer{
+  border-top: 1px solid rgb(227, 225, 225);
+  display: -webkit-inline-box;
+}
+.pkk{
+  border-bottom: 1px solid rgb(227, 225, 225);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
